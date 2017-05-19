@@ -1,0 +1,962 @@
+.header{
+	width: 100%;
+    height: 0.89rem;
+    background-color: #007be3;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 999;
+}
+.biaoti{
+	width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.biaoti li{
+	width: 20%;
+    height: 100%;
+    float: left;
+    font-size: 0.32rem;  
+    color: #fff;
+    line-height: 0.89rem;
+    border: none;
+    text-align: center;
+}
+.banner{
+	position: relative;
+    width: 100%;
+    height: 5rem;
+    background: url(../img/biaoti1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+.banner div{
+	position: absolute;
+    left: 0;
+    top: 0.89rem;
+    width: 100%;
+    height: 4.14rem;
+    background: url(../img/biaoti.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.yi{
+	width: 100%;
+    position: relative;
+}
+.fuwu{
+	width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+}
+.wenzi{
+	width: 100%;
+    height: 0.9rem;
+    margin: 0.4rem auto;
+    /*overflow: hidden;*/
+}
+.wenzi1{
+	width: 100%;
+    height: 0.4rem;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.36rem;
+    color: #333;
+}
+.heng{
+	width: 2.7rem;
+    height: 0.1rem;
+    margin: 0 auto;
+    position: relative;
+    background: url(../img/heng.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.wenzi2{
+	width: 100%;
+    height: 0.4rem;
+    
+    color: #333;
+}
+.wenzi2 p{
+	font-size: 0.4rem;
+	line-height: 0.3rem;
+	text-align: center;
+	/*text-align: center;*/
+}
+.fuwu1{
+	width: 6.9rem;
+    height: 5.4rem;
+    margin: 0.2rem auto;
+}
+.fuwu1 ul{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	/*margin: 0 auto;*/
+}
+.fuwu1 ul li{
+	width: 2.1rem;
+    height: 2.5rem;
+    float: left;
+    overflow: hidden;
+    margin-right: 0.2rem;
+    
+    /*margin-top: 0rem;*/
+}
+.fuwu1 ul li div{
+	width: 2.1rem;
+    height: 1.1rem;
+    background: url(../img/a.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+    font-size: 0.28rem;
+    line-height: 1.1rem;
+    font-weight: 600;
+    padding-left: 0.9rem;
+    margin-right: none;
+}
+.fuwu1 ul li .a{
+	/*padding-left: 0.5rem;*/
+}
+.fuwu1 ul li p{
+	width: 2.05rem;
+    height: 1.1rem;
+    color: #333;
+    font-size: 0.26rem;
+    line-height: 0.32rem;
+    text-align: center;
+    padding-top: 0.2rem;
+    border: 1px dashed #f2a111;
+    /*-webkit-transform: rotateX(-90deg);*/
+}
+.fuwu1 ul li .b{
+	background: url(../img/b.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fuwu1 ul li .c{
+	background: url(../img/c.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fuwu1 ul li .d{
+	background: url(../img/d.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fuwu1 ul li .e{
+	background: url(../img/e.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fuwu1 ul li .f{
+	background: url(../img/f.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fuwu1 ul li .bb{
+	border: 1px dashed #2f90da;
+}
+.fuwu1 ul li .cc{
+	border: 1px dashed #f87844;
+}
+.fuwu1 ul li .dd{
+	border: 1px dashed #1bbf99;
+}
+.fuwu1 ul li .ee{
+	border: 1px dashed #f8ce68;
+}
+.fuwu1 ul li .ff{
+	border: 1px dashed #c16bbb;
+}
+.er{
+	width: 100%;
+	/*height: 7.6rem;*/
+	overflow: hidden;
+}
+.er1{
+	width: 100%;
+    height: 1.3rem;
+    margin: 0 auto;
+    padding: 0.4rem 0;
+    background: url(../img/biaozhi.png) center center no-repeat;
+    background-size: 100%;
+    position: relative;
+    z-index: 20;
+}
+.wenzi3{
+	width: 100%;
+    height: 0.4rem;
+    text-align: center;
+    line-height: 1.1rem;
+    font-size: 0.36rem;
+    color: #fff;
+}
+.heng1{
+	width: 2.7rem;
+    height: 0.1rem;
+    margin: 0 auto;
+    position: relative;
+    background: url(../img/heng2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 0.28rem;
+}
+.wenzi4{
+	width: 100%;
+    height: 0.4rem;
+    
+    color: #fff;
+}
+.wenzi4 p{
+	font-size: 0.35rem;
+	line-height: 0.3rem;
+	text-align: center;
+	/*text-align: center;*/
+}
+.neirong{
+	width: 7.02rem;
+    height: 100%;
+    /*margin-top: 0.5rem;*/
+    margin: 0 auto;
+}
+.neirong1{
+	width: 7.02rem;
+    height: 3.15rem;
+    border: 1px dashed #030000;
+    background: #f5f5f5;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.neirong1 p{
+	width: 100%;
+    height: auto;
+    text-align: center;
+    line-height: 0.36rem;
+    color: #333;
+    font-size: 0.26rem;
+    margin-top: 0.1rem;
+}
+.neirong1 span{
+	color: #00a8ff;
+    font-weight: 600;
+}
+.tupian{
+	width: 100%;
+    height: 3.74rem;
+    background: url(../img/tupian.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.san{
+	width: 100%;
+	overflow: hidden;
+	margin-top: -1rem;
+    position: relative;
+}
+.jiuye{
+	width: 100%;
+    height: 1.3rem;
+    margin: 0 auto;
+    padding: -0.6rem 0;
+    background: url(../img/lanse.png) center center no-repeat;
+    background-size: 100%;
+    position: relative;
+    z-index: 20;
+}
+.wenzi5{
+	width: 100%;
+    height: 0.4rem;
+    text-align: center;
+    line-height: 1.1rem;
+    font-size: 0.34rem;
+    color: #fff;
+    
+}
+.heng2{
+	width: 3.5rem;
+    height: 0.1rem;
+    margin: 0 auto;
+    position: relative;
+    background: url(../img/heng2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 0.28rem;
+}
+.wenzi6{
+	width: 100%;
+    height: 0.4rem;
+    color: #fff;
+}
+.wenzi6 p{
+	font-size: 0.35rem;
+	line-height: 0.3rem;
+	text-align: center;
+	/*text-align: center;*/
+}
+.jiuye2{
+	    width: 100%;
+    height: 12.4rem;
+    background: #1b1d32;
+    margin-top: -0.4rem;
+    padding-top: 0.4rem;
+    /*position: relative;*/
+}
+.a1{
+	width: 2.46rem;
+    height: -0.2rem;
+    margin: 0 auto;
+    padding: 0.2rem;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.3rem;
+    border-bottom: 1px dashed #fff;
+    position: relative;
+    color: #f5f5f5;
+}
+.a1a{
+	width: 100%;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0.1rem;
+}
+.a1b{
+	width: 100%;
+   /* height: 0.82rem;*/
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #1b1d32;
+    overflow: hidden;
+    height: 0px;
+}
+.a2{
+	width: 7.02rem;
+    height: 4.17rem;
+    margin: 0 auto;
+    background: url(../img/bfb.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 0.25rem;
+    position: relative;
+}
+.a2 div{
+	height: 0.32rem;
+    position: absolute;
+    left: 1.1rem;
+}
+.bfb1{
+	overflow: hidden;
+    width: 0.82rem;
+    top: 0.48rem;
+    background: #fff100;
+}
+.bfb2{
+	overflow: hidden;
+    width: 1.3rem;
+    top: 1.1rem;
+    background: #1dffbd;
+}
+.bfb3{
+	overflow: hidden;
+    width: 4.8rem;
+    top: 1.71rem;
+    background: #0c51ff;
+}
+.bfb4{
+	overflow: hidden;
+    width: 2.76rem;
+    top: 2.30rem;
+    background: #00a8ff;
+}
+.bfb5{
+	overflow: hidden;
+    width: 0.92rem;
+    top: 2.96rem;
+    background: #1befe8;
+}
+.a3{
+	width: 7.02rem;
+    height: 5rem;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 0.3rem;
+    position: relative;
+}
+.a3 ul{
+	width: 3.41rem;
+    height: 5rem;
+    overflow: hidden;
+    margin: 0 auto;
+    position: absolute;
+    
+}
+.a3 li {
+    padding-top: 0.14rem;
+    width: 3.41rem;
+    height: 2.21rem;
+    overflow: hidden;
+    background: url(../img/lan.png) center center no-repeat;
+    background-size: 100%;
+    margin-top: 0.19rem;
+}
+.a3 p {
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 1.67rem;
+    overflow: hidden;
+}
+.a3 span {
+    display: block;
+    width: 100%;
+    font-size: 0.3rem;
+    line-height: 0.4rem;
+    text-align: center;
+    color: #fff;
+}
+.a4{
+	display: block;
+    width: 2.99rem;
+    height: 0.8rem;
+    margin: 0.4rem auto;
+    background: url(../img/kuang.png) center center no-repeat;
+    background-size: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.28rem;
+}
+.si{
+	width: 100%;
+    position: relative;
+    margin-top: -0.6rem;
+}
+.si2{
+	width: 7.02rem;
+    height: 4rem;
+    margin: 0 auto;
+    margin-top: -0.5rem;
+}
+.si3{
+	width: 7.02rem;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+}
+.title{
+	width: 100%;
+    height: 0.6rem;
+}
+.title .p1{
+	color: #fff;
+    font-size: 0.26rem;
+    line-height: 0.6rem;
+    height: 0.6rem;
+    border-radius: 0.1rem 0.1rem 0 0;
+    background: #40abfd;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    width: 1.3rem;
+}
+.title .p2{
+	color: #fff;
+    font-size: 0.26rem;
+    line-height: 0.6rem;
+    height: 0.6rem;
+    border-radius: 0.1rem 0.1rem 0 0;
+    
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    
+    width: 1.8rem;
+    background: #219eff;
+}
+
+.title .p3{
+	color: #fff;
+    font-size: 0.26rem;
+    line-height: 0.6rem;
+    height: 0.6rem;
+    border-radius: 0.1rem 0.1rem 0 0;
+    
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    
+    width: 3.92rem;
+    background: #118ded;
+}
+.shuju{
+	width: 100%;
+	height: 3.5rem;
+	border: 1px solid #1875ff;
+}
+.shuju ul{
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.shuju ul .shuju1{
+	width: 100%;
+    height: 0.7rem;
+    overflow: hidden;
+    background: rgb(238, 238, 238);
+}
+.shuju ul .shuju2{
+	width: 100%;
+    height: 0.7rem;
+    overflow: hidden;
+    /*background: rgb(238, 238, 238);*/
+}
+.shuju li .p1{
+	height: 0.7rem;
+    overflow: hidden;
+    float: left;
+    font-size: 0.26rem;
+    color: #666;
+    line-height: 0.7rem;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    width: 1.3rem;
+}
+.shuju li .p2{
+	height: 0.7rem;
+    overflow: hidden;
+    float: left;
+    font-size: 0.26rem;
+    /*color: #666;*/
+    line-height: 0.7rem;
+    /*text-align: center;*/
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    color: #feaf34;
+    width: 1.8rem;
+    text-transform: uppercase;
+}
+.shuju li .p3{
+	height: 0.7rem;
+    overflow: hidden;
+    float: left;
+    font-size: 0.26rem;
+    color: #666;
+    line-height: 0.7rem;
+    /*text-align: center;*/
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    width: 3.8rem;
+}
+.wu{
+	background: url(../img/beijing.png) center center repeat;
+    background-size: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.er2{
+	width: 100%;
+    height: 1.3rem;
+    margin: 0 auto;
+    padding: 0.4rem 0;
+    background: url(../img/lu.png) center center no-repeat;
+    background-size: 100%;
+    position: relative;
+    z-index: 20;
+}
+.lie{
+	width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+}
+.lie ul{
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 0.3rem;
+}
+.lie ul li{
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    margin-top: 0.4rem;
+}
+.lie ul .lie1{
+	border-top: 2px solid #f88c00;
+}
+.lie span {
+    display: block;
+    width: 100%;
+    height: auto;
+    color: #333;
+    overflow: hidden;
+    font-size: 0.3rem;
+    padding: 0.1rem 0.2rem;
+    margin-top: 0.2rem;
+    line-height: 0.32rem;
+}
+.lie p {
+    width: 100%;
+    height: auto;
+    padding: 0.2rem;
+    overflow: hidden;
+    margin-top: 0.1rem;
+    border-top: 1px dashed #a0a0a0;
+    font-size: 0.26rem;
+    line-height: 0.36rem;
+    text-align: justify;
+    color: #666;
+    letter-spacing: 1px;
+    /*-moz-text-align-last: justify;*/
+    /*-webkit-text-align-last: justify;*/
+}
+.lie ul .lie2{
+	border-top: 2px solid #32afff;
+}
+.lie ul .lie3{
+	border-top: 2px solid #eb6877;
+}
+.lie ul .lie4{
+	border-top: 2px solid #22ac38;
+}
+.lie ul .lie5{
+	border-top: 2px solid #ea61d5;
+}
+.lie ul .lie6{
+	border-top: 2px solid #13e5e3;
+}
+.liu{
+	margin-top: 0.5rem;
+	width: 100%;
+    position: relative;
+}
+.er3{
+	width: 100%;
+    height: 1.3rem;
+    margin: 0 auto;
+    padding: 0.4rem 0;
+    background: url(../img/lanse.png) center center no-repeat;
+    background-size: 100%;
+    position: relative;
+    z-index: 20;
+}
+.liu1{
+	margin-top: 0.5rem;
+	width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+}
+.liu1 ul{
+	width: 100%;
+    height: 2.63rem;
+    overflow: hidden;
+    margin-top: 0.1rem;
+     float: left;
+}
+.liu1 ul li{
+	width: 3.41rem;
+    margin-right: 0.1rem;
+    height: 2.63rem;
+    overflow: hidden;
+    float: left;
+    /*opacity: 0;*/
+    
+    /*-webkit-transform: scale(0.6);*/
+}
+.liu1 ul .tu1{
+	background: url(../img/aa.png) center center no-repeat;
+    background-size: 100%;
+}
+.liu1 ul .tu2{
+    margin-right: 0;
+	background: url(../img/bb.png) center center no-repeat;
+    background-size: 100%;
+}
+.liu1 ul .tu3{
+	width: 6.91rem;
+	background: url(../img/cc.png) center center no-repeat;
+    background-size: 100%;
+    
+}
+.liu1 ul .tu4{
+	background: url(../img/dd.png) center center no-repeat;
+    background-size: 100%;
+}
+.liu1 ul .tu5{
+	background: url(../img/ee.png) center center no-repeat;
+    background-size: 100%;
+}
+.qi{
+	width: 100%;
+	overflow: hidden;
+    position: relative;
+}
+.er4{
+	width: 100%;
+    height: 1.3rem;
+    margin: 0 auto;
+    padding: 0.4rem 0;
+    background: url(../img/biaozhi.png) center center no-repeat;
+    background-size: 100%;
+    position: relative;
+    z-index: 20;
+}
+.qi1{
+	width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+}
+.qi1 p{
+	width: 100%;
+    height: 0.85rem;
+    font-size: 0.28rem;
+    color: #333;
+    text-align: center;
+    line-height: 0.85rem;
+    font-weight: 600;
+}
+.xinxi{
+	width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+}
+.box{
+	padding: 0 0.7rem 0;
+	overflow: hidden;
+}
+form{
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.table1{
+	font-size: 12px;
+}
+.table1 tr{
+	width: 100%;
+    height: 0.6rem;
+}
+.table1 tbody th {
+    border-bottom: 1px solid #eee;
+}
+.table1 tbody td {
+    border-bottom: 1px solid #eee;
+}
+.table1 tr th {
+    width: 1.2rem!important;
+    height: 0.6rem;
+    display: block;
+    color: #333;
+    font-size: 0.3rem;
+    line-height: 0.6rem;
+    float: left;
+    margin-top: 0.4rem;
+    border: none!important;
+}
+.table1 tr td {
+    border: 0!important;
+    float: left;
+    color: #333;
+    font-size: 0.3rem;
+    border: none;
+    outline: none;
+    width: 4.2rem;
+    line-height: 0.6rem;
+    text-indent: 1em;
+    overflow: hidden;
+    padding: 0;
+    padding-left: 0.1rem;
+}
+input.input-text {
+    float: left;
+    color: #333;
+    font-size: 0.3rem;
+    background: url(../img/bian.png) center center no-repeat;
+    background-size: 100%;
+    border: none;
+    outline: none;
+    width: 4.0rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    text-indent: 1em;
+    margin-top: 0.4rem;
+}
+form select {
+    float: left;
+    color: #333;
+    font-size: 0.3rem;
+    background: url(../img/bian.png) center center no-repeat;
+    background-size: 100%;
+    border: none;
+    outline: none;
+    width: 4.0rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    text-indent: 1em;
+    margin-top: 0.4rem;
+}
+.box1{
+	width: 100%;
+    height: 100%;
+}
+.box1 input {
+    display: block;
+    width: 2.99rem;
+    height: 0.8rem;
+    text-indent: 0;
+    color: #fff;
+    background: url(../img/kuang.png) center center no-repeat;
+    background-size: 100%;
+    text-align: center;
+    line-height: 0.8rem;
+    outline: none;
+    border: none!important;
+    font-size: 0.3rem;
+}
+form tr:last-child td {
+    float: left;
+    margin-left: 1.28rem;
+    margin-top: -0.8rem;
+}
+.mowei{
+    width: 100%;
+    height: 1.2rem;
+    font-size: 0.3rem;
+    overflow: hidden;
+    padding-bottom: 0.8rem;
+}
+.mowei p{
+	color: #666;
+    font-size: 0.2rem;
+    text-align: center;
+    padding-top: 0.18rem;
+}
+.dibu{
+	width: 100%;
+    height: 0.9rem;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin-top: 0.2rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+}
+.zuihou{
+	width: 100%;
+    height: 100%;
+    background: #e7e7e7;
+    float: left;
+    
+}
+.zuihou div{
+	line-height: 0.9rem;
+	
+}
+.shiting{
+	width: 30%;
+    height: 0.8rem;
+    float: left;
+    position: relative;
+}
+.mianfei{
+	width: 40%;
+    height: 0.8rem;
+    float: left;
+    background-color: #ff8d12;
+    border-radius: 0.08rem;
+    color: #fff;
+    /*margin: 0 auto;*/
+    text-align: center;
+    position: relative;
+}
+.zaixian{
+	width: 30%;
+    height: 0.8rem;
+    float: left;
+    position: relative;
+}
+.ziti{
+	float: left;
+    font-size: 0.26rem;
+    margin-left: 0.1rem;
+    position: absolute;
+    right: 0.2rem;
+}
+.ziti1{
+	float: left;
+    font-size: 0.26rem;
+    margin-left: 0.1rem;
+    position: absolute;
+    right: 0.65rem;
+}
+.dibutu{
+	width: 0.32rem;
+	height: 0.32rem;
+	background: url(../img/qq.png);
+	background-position: center center;
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+	position: absolute;
+	left:0.55rem ;
+	top: 0.3rem;
+	
+}
+.dibutu1{
+	width: 0.36rem;
+	height: 0.36rem;
+	/*background:u*/
+	background: url(../img/shouye6.png);
+	background-size: cover;
+	background-position:-1.6rem -4.78rem;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    /*display: inline-block;
+    line-height: 0.9rem;
+    margin-left: 0.7rem;*/
+	position: absolute;
+	left:0.75rem ;
+	top: 0.23rem;
+	
+}
+.dibutu2{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: url(../img/shouye6_03.gif);
+	background-position:center center;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    background-size: cover;
+	position: absolute;
+	left:0.38rem ;
+	top: 0.2rem;
+}

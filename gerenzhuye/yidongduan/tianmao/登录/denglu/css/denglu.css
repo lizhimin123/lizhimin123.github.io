@@ -1,0 +1,118 @@
+.box{
+	width: 100%;
+	height: auto;
+	display: block;
+	overflow: hidden;
+	background: #f0f0f0;
+}
+.head{
+	width: 100%;
+    height: 1.173333rem;
+    line-height: 1.173333rem;
+    border-bottom: 1px solid #c8c8c8;
+    color: #000;
+    text-align: center;
+    font-size: 0.453333rem;
+    background-color: #f7f7f8;
+}
+.zh{
+	width: 100%;
+	height: 0.76rem;
+    border-bottom: 1px solid #ddd;
+    padding: .373333rem .266667rem;
+    color: #6c6c6c;
+    background-color: #fff;
+    text-align: left;
+    font-size: 0.4533rem;
+    overflow: hidden;
+    position: relative;
+}
+.zhang{
+	width:20%;
+	height: 1rem;
+	position: absolute;
+	top: 0.15rem;
+	left: 0.4rem;
+}
+.tex{
+	width: 79%;
+	height: 0.7rem;
+	position: absolute;
+	font-size: 0.5rem;
+	bottom: 0;
+	right: 0;
+	padding: 0;
+    border: 0;
+    background-color: transparent;
+	
+}
+.zhang1{
+	width: 25%;
+	height: 1rem;
+	position: absolute;
+	top: 0.15rem;
+	left: 0.4rem;
+}
+.tex1{
+	width: 67%;
+	height: 0.7rem;
+	font-size: 0.5rem;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 0;
+    border: 0;
+    background-color: transparent;
+	
+}
+.red{
+	width: 94%;
+	height: 1.2rem;
+	background: #c40000;
+	margin: 0.48rem 0.2rem;
+	padding: 0;
+	font-size: 0.426667rem;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+	line-height: 1.2rem;
+	border-radius: 7px;
+}
+.mf{
+	width: 94%;
+	overflow: hidden;
+    margin: .4rem .266667rem;
+    color: #6c6c6c;
+    height: 0.65rem;
+}
+.zc{
+	color: #c40000!important;
+	font-size: 0.3rem;
+	float: left;
+}
+.wj{
+	color: #c40000!important;
+	font-size: 0.3rem;
+	float: right;
+}
+.duanxin{
+	width: 100%;
+	height: 1rem;
+	margin-top:0.7rem;
+	overflow: hidden;
+}
+.jy{
+	margin: 0 auto;
+	width: 40%;
+	height: 0.7rem;
+	border: 1px solid #f40;
+	padding: 0.12rem;
+	color: #FF4400;
+	font-size: 0.35rem;
+	overflow: hidden;
+	text-align: center;
+}
+.kb{
+	width: 100%;
+	height: 4.1rem;
+}

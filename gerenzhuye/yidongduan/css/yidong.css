@@ -1,0 +1,1348 @@
+/*
+* @Author: ASUS
+* @Date:   2017-03-16 11:23:57
+* @Last Modified by:   ASUS
+* @Last Modified time: 2017-03-24 10:01:06
+*/
+.box{
+           width:100%;
+           /* height: auto; */
+           overflow: hidden;
+           position: relative;
+    }
+.header{
+           width: 100%;
+           height: 3.62rem;
+           background-image: url('../img/banner.webp');
+           background-size: cover;
+            float: left;
+          }
+ /* .header1{
+ 	       width: 100%;
+           height: 0.9rem;
+         }   */ 
+.header1 .toubu{
+	 width: 100%;
+     height: 0.9rem;
+     float: left;
+     background: black;
+  }
+.yi{
+	width: 25px;
+	height:-0.4rem; 
+	line-height: 0.9rem;
+	margin-left: 15px;
+	float: left;
+	border-bottom: 5px;
+	/* margin-bottom: 5px; */
+	/* padding: 15px 5px; */
+}
+.yi img{
+	width: 100%;
+	height: 100%;
+}
+.er{
+	line-height: 0.9rem;
+}
+.er .sousuo{
+	width: 244px;
+	height:0.66rem; 
+	
+	margin-top: 3px;
+	margin-left: 24px;
+	float: left;
+}
+.san{
+	font-size: 14px;
+	width: 28px;
+	height: 0.9rem;
+	line-height: 0.9rem;
+	margin-right: 18px;
+	color: #fff;
+	float: right;
+}
+
+/* .box .toubu{
+            width: 100%;
+            height: 0.9rem;
+            float: left;
+            position: absolute;
+            top: 0;
+            left: 0;
+          } */
+    .fenlei{
+           width:100%;
+           /* height: auto; */
+           overflow: hidden;
+           
+    }
+    .fenlei1{
+    	width: 100%;
+    	height: 1.44rem;
+        float: left;
+        background:white;
+
+    }
+    .fenlei1 li{
+    	position: relative;
+    }
+    .a{
+    	width: 20%;
+    	height: 1rem;
+    	float: left;
+    	 
+    	background-image: url('../img/1.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	/* position: relative; */
+    }
+    .b{
+    	width: 20%;
+    	height: 1rem;
+    	float: left;
+    	 
+    	background-image: url('../img/2.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	/* position: relative; */
+    }
+    .c{
+    	width: 20%;
+    	height: 1rem;
+    	float: left;
+    	 
+    	background-image: url('../img/3.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	/* position: relative; */
+    }
+    .d{
+    	width: 20%;
+    	height: 1rem;
+    	float: left;
+    	 
+    	background-image: url('../img/4.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	/* position: relative; */
+    }
+    .e{
+    	width: 20%;
+    	height: 1rem;
+    	float: left;
+    	 
+    	background-image: url('../img/5.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	/* position: relative; */
+    }
+    .f{
+    	width: 20%;
+    	height: 1rem;
+    	float: left;
+    	 
+    	background-image: url('../img/6.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	/* position: relative; */
+    }
+    .g{
+    	width: 20%;
+    	height: 1rem;
+    	float: left;
+    	 
+    	background-image: url('../img/7.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	/* position: relative; */
+    }
+    .h{
+    	width: 20%;
+    	height: 1rem;
+    	float: left;
+    	 
+    	background-image: url('../img/8.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	/* position: relative; */
+    }
+    .i{
+    	width: 20%;
+    	height: 1rem;
+    	float: left;
+    	 
+    	background-image: url('../img/9.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	/* position: relative; */
+    }
+    .l{
+    	width: 20%;
+    	height: 1rem;
+    	float: left;
+    	 
+    	background-image: url('../img/10.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	/* position: relative; */
+    }
+    .wenzi{
+    	color: #051B28;
+        font-size: 12px;
+        text-align: center;
+        /* line-height: normal; */
+        /* margin: 4px; */
+        /* margin-left: 5px;
+        margin-top: 0.72rem; */
+        float: left;
+        position: absolute;
+        top: 1rem;
+        left: 13px;
+    }
+    .wenzi2{
+    	color: #051B28;
+        font-size: 12px;
+        text-align: center;
+        /* line-height: normal; */
+        /* margin: 4px; */
+        /* margin-left: 5px;
+        margin-top: 0.72rem; */
+        float: left;
+        position: absolute;
+        top: 1rem;
+        left: 87px;
+    }
+    .wenzi3{
+    	color: #051B28;
+        font-size: 12px;
+        text-align: center;
+        /* line-height: normal; */
+        /* margin: 4px; */
+        /* margin-left: 5px;
+        margin-top: 0.72rem; */
+        float: left;
+        position: absolute;
+        top: 1rem;
+        left: 163px;
+    }
+    .wenzi4{
+    	color: #051B28;
+        font-size: 12px;
+        text-align: center;
+        /* line-height: normal; */
+        /* margin: 4px; */
+        /* margin-left: 5px;
+        margin-top: 0.72rem; */
+        float: left;
+        position: absolute;
+        top: 1rem;
+        left: 244px;
+    }
+    .wenzi5{
+    	color: #051B28;
+        font-size: 12px;
+        text-align: center;
+        /* line-height: normal; */
+        /* margin: 4px; */
+        /* margin-left: 5px;
+        margin-top: 0.72rem; */
+        float: left;
+        position: absolute;
+        top: 1rem;
+        right: 14px;
+    }
+    .wenzi6{
+    	color: #051B28;
+        font-size: 12px;
+        text-align: center;
+        /* line-height: normal; */
+        /* margin: 4px; */
+        /* margin-left: 5px;
+        margin-top: 0.72rem; */
+        float: left;
+        position: absolute;
+        top: 1rem;
+        left: 13px;
+    }
+    .wenzi7{
+    	color: #051B28;
+        font-size: 12px;
+        text-align: center;
+        /* line-height: normal; */
+        /* margin: 4px; */
+        /* margin-left: 5px;
+        margin-top: 0.72rem; */
+        float: left;
+        position: absolute;
+        top: 1rem;
+        left: 100px;
+    }
+    .wenzi8{
+    	color: #051B28;
+        font-size: 12px;
+        text-align: center;
+        /* line-height: normal; */
+        /* margin: 4px; */
+        /* margin-left: 5px;
+        margin-top: 0.72rem; */
+        float: left;
+        position: absolute;
+        top: 1rem;
+        left: 163px;
+    }
+    .wenzi9{
+    	color: #051B28;
+        font-size: 12px;
+        text-align: center;
+        /* line-height: normal; */
+        /* margin: 4px; */
+        /* margin-left: 5px;
+        margin-top: 0.72rem; */
+        float: left;
+        position: absolute;
+        top: 1rem;
+        left: 244px;
+    }
+    .wenzi10{
+    	color: #051B28;
+        font-size: 12px;
+        text-align: center;
+        /* line-height: normal; */
+        /* margin: 4px; */
+        /* margin-left: 5px;
+        margin-top: 0.72rem; */
+        float: left;
+        position: absolute;
+        top: 1rem;
+        right: 27px;
+    }
+    .redian{
+    	width: 100%;
+    	overflow: hidden;
+
+    }
+    .redian ul{
+    	width: 100%;
+    	height: 0.8rem;
+    	margin: 0.2rem 0;
+    	background: white;
+    	position: relative;
+    	float: left;
+    }
+    .redian ul .tianmao{
+    	width:20%;
+    	height: 0.8rem; 
+    	border-right: 1px solid #e7e7e7;
+        background-image: url('../img/tianmao.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	float: left;
+    }
+    .redian ul .laba{
+    	width:10%;
+    	height: 0.8rem; 
+    	/* border-right: 1px solid #e7e7e7; */
+        background-image: url('../img/laba.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	float: left;
+    }
+    .redian ul .gundong{
+    	width:69%;
+    	height: 0.8rem; 
+    	float: right;
+    	/* line-height:0.8rem; */
+    }
+    .redian ul li .span1{
+        font-size: 12px;
+        color: black;
+        float: left;
+        line-height:-0.4rem;
+    }
+    .redian ul li .span2{
+        font-size: 12px;
+        color: red;
+        float: left;
+        line-height:0.8rem;
+    }
+    .xunhuan{
+    	width: 100%;
+    	height: 2.22rem;
+    	background: #f0f0f0;
+    }
+    .xunhuan ul .chuang{
+    	width: 50%;
+    	height: 2.2rem;
+    	margin-top: 1px;
+    	float: left;
+    	background-image: url('../img/chuang.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    }
+    .xunhuan ul .kongtiao{
+    	width: 50%;
+    	height: 2.2rem;
+    	margin-top: 2px;
+    	float: right;
+    	background-image: url('../img/kongtiao.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    }
+    .biqiang{
+    	width: 100%;
+    	height: 0.56rem;
+    	position: relative;
+    	background: #f0f0f0;
+    }
+    .zuo{
+    	width: 0.68rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 2.4rem;
+    	background: #FF2E2E; 
+    }
+    .biqiang div{
+    	width:0.3rem; 
+    	height: 0.3rem;
+    	/* margin-top: 2px; */
+    	background-image: url('../img/huo.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	position: absolute;
+    	top: 0.1rem;
+    	left: 3.2rem; 
+    }
+    .biqiang1{
+    	font-size: 14px;
+        line-height: 0.56rem;
+        color:#FF2E2E; 
+        position: absolute;
+        left: 3.5rem;
+    }
+    .you{
+    	width: 0.68rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 4.2rem;
+    	background: #FF2E2E; 
+    }
+    .jinri{
+    	width: 100%;
+    	overflow: hidden;
+    }
+    .jinri1 .jinri2{
+        width: 100%;
+        height: 2.76rem;
+        float: left;
+    }
+    img{
+    	width: 100%;
+        height:100%;
+    }
+    .chaoliu{
+    	width: 100%;
+    	height: 0.56rem;
+    	position: relative;
+    	background: #f0f0f0;
+    }
+    .chaoliu .zuo{
+    	width: 0.68rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 2.05rem;
+    	background: #4A84E2; 
+    }
+    .chaoliu div{
+    	width:0.3rem; 
+    	height: 0.3rem;
+    	/* margin-top: 2px; */
+    	background-image: url('../img/shouji.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	position: absolute;
+    	top: 0.1rem;
+    	left: 2.9rem; 
+    }
+    .chaoliu1{
+    	font-size: 14px;
+        line-height: 0.56rem;
+        color:#4A84E2; 
+        position: absolute;
+        left: 3.2rem;
+    }
+    .chaoliu .you{
+    	width: 0.68rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 4.45rem;
+    	background: #4A84E2; 
+    }
+    .suning{
+    	width: 100%;
+    	overflow: hidden;
+    }
+    .suning ul li{
+    	width: 33.33%;
+    	height: 3.02rem;
+    	float: left;
+    }
+    .temai{
+    	width: 100%;
+    	height: 0.56rem;
+    	position: relative;
+    	background: #f0f0f0;
+    }
+    .temai .zuo{
+    	width: 0.68rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 2.05rem;
+    	background: #FF8000; 
+    }
+    .temai div{
+    	width:0.3rem; 
+    	height: 0.3rem;
+    	/* margin-top: 2px; */
+    	background-image: url('../img/xingxing.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	position: absolute;
+    	top: 0.1rem;
+    	left: 2.9rem; 
+    }
+    .temai1{
+    	font-size: 14px;
+        line-height: 0.56rem;
+        color:#FF8000; 
+        position: absolute;
+        left: 3.2rem;
+    }
+    .temai .you{
+    	width: 0.68rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 4.45rem;
+    	background: #FF8000; 
+    }
+    .temai2{
+    	width: 100%;
+    	overflow: hidden;
+    }
+    .temai2 ul li{
+    	width: 50%;
+    	height: 2.2rem;
+    	float: left;
+    }
+    .zixun{
+    	width: 100%;
+    	height: 0.56rem;
+    	position: relative;
+    	background: #f0f0f0;
+    }
+    .zixun .zuo{
+    	width: 0.68rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 2.05rem;
+    	background: #009F8A; 
+    }
+    .zixun div{
+    	width:0.3rem; 
+    	height: 0.3rem;
+    	/* margin-top: 2px; */
+    	background-image: url('../img/55.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	position: absolute;
+    	top: 0.1rem;
+    	left: 2.9rem; 
+    }
+    .zixun1{
+    	font-size: 14px;
+        line-height: 0.56rem;
+        color:#009F8A; 
+        position: absolute;
+        left: 3.2rem;
+    }
+    .zixun .you{
+    	width: 0.68rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 4.45rem;
+    	background: #009F8A; 
+    }
+    .zixun2{
+    	width: 100%;
+    	overflow: hidden;
+    }
+    .zixun2 .x li{
+    	width: 33.33%;
+    	height: 3.5rem;
+    	float: left;
+    }
+    .zixun2 .y li{
+    	width: 100%;
+    	height: 1.86rem;
+    	float: left;
+    }
+    .shenghuo{
+    	width: 100%;
+    	height: 0.56rem;
+    	position: relative;
+    	background: #f0f0f0;
+    }
+    .shenghuo .zuo{
+    	width: 0.68rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 2.05rem;
+    	background: #43AF00; 
+    }
+    .shenghuo div{
+    	width:0.3rem; 
+    	height: 0.3rem;
+    	/* margin-top: 2px; */
+    	background-image: url('../img/gouwulan.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	position: absolute;
+    	top: 0.1rem;
+    	left: 2.9rem; 
+    }
+    .shenghuo1{
+    	font-size: 14px;
+        line-height: 0.56rem;
+        color:#43AF00; 
+        position: absolute;
+        left: 3.2rem;
+    }
+    .shenghuo .you{
+    	width: 0.68rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 4.45rem;
+    	background: #43AF00; 
+    }
+    .shenghuo2{
+    	width: 100%;
+    	overflow: hidden;
+    }
+    .shenghuo2 ul li{
+    	float: left;
+    }
+    .shenghuo2 ul .v{
+    	width: 50%;
+    	height: 2.92rem;
+    	float: left;
+    }
+    .shenghuo2 ul .z{
+    	width: 50%;
+    	height: 2.92rem;
+    	float: left;
+    }
+    .shenghuo2 ul .z .z1{
+    	width: 100%;
+    	height: 1.46rem;
+    	float: top;
+    }
+    .shenghuo2 ul .z .z2{
+    	width: 100%;
+    	height: 1.46rem;
+    	float: bottom;
+    }
+    .guoji{
+    	width: 100%;
+    	height: 0.56rem;
+    	position: relative;
+    	background: #f0f0f0;
+    }
+    .guoji .zuo{
+    	width: 0.68rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 2.05rem;
+    	background: #8828DD; 
+    }
+    .guoji div{
+    	width:0.3rem; 
+    	height: 0.3rem;
+    	/* margin-top: 2px; */
+    	background-image: url('../img/feiji.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	position: absolute;
+    	top: 0.1rem;
+    	left: 2.9rem; 
+    }
+    .guoji1{
+    	font-size: 14px;
+        line-height: 0.56rem;
+        color:#8828DD; 
+        position: absolute;
+        left: 3.2rem;
+    }
+    .guoji .you{
+    	width: 0.68rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 4.45rem;
+    	background: #8828DD; 
+    }
+    .jingxuan{
+    	width: 100%;
+    	height: 0.56rem;
+    	position: relative;
+    	background: #f0f0f0;
+    }
+    .jingxuan .zuo{
+    	width: 0.68rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 2.05rem;
+    	background: #E24AA5; 
+    }
+    .jingxuan div{
+    	width:0.3rem; 
+    	height: 0.3rem;
+    	/* margin-top: 2px; */
+    	background-image: url('../img/yifu.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	position: absolute;
+    	top: 0.1rem;
+    	left: 2.9rem; 
+    }
+    .jingxuan1{
+    	font-size: 14px;
+        line-height: 0.56rem;
+        color:#E24AA5; 
+        position: absolute;
+        left: 3.2rem;
+    }
+    .jingxuan .you{
+    	width: 0.68rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 4.45rem;
+    	background: #E24AA5; 
+    }
+    .jingxuan2{
+    	width: 100%;
+    	overflow: hidden;
+    }
+    .jingxuan3{
+    	width: 100%;
+    	height: 2.6rem;
+    	float: left;
+    }
+    .jingxuan3 li{
+    	width: 25%;
+    	height: 2.6rem;
+    	float: left;
+    }
+    .jingxuan4 li{
+        width: 50%;
+        height: 2.2rem;
+        float: left;
+    }
+    .shenghuo{
+    	width: 100%;
+    	height: 0.56rem;
+    	position: relative;
+    	background: #f0f0f0;
+    }
+    .shenghuo .zuo{
+    	width: 0.68rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 2.05rem;
+    	background: #17B7FF; 
+    }
+    .shenghuo div{
+    	width:0.3rem; 
+    	height: 0.3rem;
+    	/* margin-top: 2px; */
+    	background-image: url('../img/xin.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	position: absolute;
+    	top: 0.1rem;
+    	left: 2.9rem; 
+    }
+    .shenghuo1{
+    	font-size: 14px;
+        line-height: 0.56rem;
+        color:#17B7FF; 
+        position: absolute;
+        left: 3.35rem;
+    }
+    .shenghuo .you{
+    	width: 0.68rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 4.45rem;
+    	background: #17B7FF; 
+    }
+    .remen{
+    	width: 100%;
+    	height: 0.56rem;
+    	position: relative;
+    	background: #f0f0f0;
+    }
+    .remen .zuo{
+    	width: 0.68rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 2.05rem;
+    	background: #5E4AE2; 
+    }
+    .remen div{
+    	width:0.3rem; 
+    	height: 0.3rem;
+    	/* margin-top: 2px; */
+    	background-image: url('../img/bao.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	position: absolute;
+    	top: 0.1rem;
+    	left: 2.9rem; 
+    }
+    .remen1{
+    	font-size: 14px;
+        line-height: 0.56rem;
+        color:#5E4AE2; 
+        position: absolute;
+        left: 3.2rem;
+    }
+    .remen .you{
+    	width: 0.68rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 4.45rem;
+    	background: #5E4AE2; 
+    }
+    .remen2{
+    	width: 100%;
+    	overflow: hidden;
+    }
+    .remen3{
+    	width: 100%;
+        height: 2rem;
+        float: left;
+    }
+    .remen3 li{
+    	width: 25%;
+    	height: 2rem;
+    	float: left;
+    }
+    .remen3 .men span{
+    	font-size: 14px;
+    	color: black;
+    	display: block;
+    	/* float: top; */
+        margin-top: 3px;
+        text-align: center;
+    }
+    .remen4{
+    	width: 100%;
+    	height: 2.6rem;
+    	float: left;
+    }
+    .remen4 li{
+        width: 25%;
+    	height: 2rem;
+    	float: left;
+    }
+    .remen4 li span{
+    	font-size: 14px;
+    	color: black;
+    	display: block;
+    	/* float: top; */
+        margin-top: 3px;
+        text-align: center;
+    }
+    .remen4 li .nei1{
+    	width: 1.5rem;
+    	height: 1.5rem;
+    	background-image: url('../img/26.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+        /* margin: 0 auto; */
+        margin-left: 9px;
+        margin-top: 10px;
+    }
+     .remen4 li .nei2{
+    	width: 1.5rem;
+    	height: 1.5rem;
+    	background-image: url('../img/27.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+        /* margin: 0 auto; */
+        margin-left: 9px;
+        margin-top: 10px;
+    }
+     .remen4 li .nei3{
+    	width: 1.5rem;
+    	height: 1.5rem;
+    	background-image: url('../img/28.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+        /* margin: 0 auto; */
+        margin-left: 9px;
+        margin-top: 10px;
+    } 
+    .remen4 li .nei4{
+    	width: 1.5rem;
+    	height: 1.5rem;
+    	background-image: url('../img/29.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+        /* margin: 0 auto; */
+        margin-left: 9px;
+        margin-top: 10px;
+    }
+    .remen4 li .nei5{
+    	width: 1.5rem;
+    	height: 1.5rem;
+    	background-image: url('../img/30.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+        /* margin: 0 auto; */
+        margin-left: 9px;
+        margin-top: 10px;
+    }
+    .remen4 li .nei6{
+    	width: 1.5rem;
+    	height: 1.5rem;
+    	background-image: url('../img/31.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+        /* margin: 0 auto; */
+        margin-left: 9px;
+        margin-top: 10px;
+    }
+    .remen4 li .nei7{
+    	width: 1.5rem;
+    	height: 1.5rem;
+    	background-image: url('../img/32.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+        /* margin: 0 auto; */
+        margin-left: 9px;
+        margin-top: 10px;
+    }
+    .remen4 li .nei8{
+    	width: 1.5rem;
+    	height: 1.5rem;
+    	background-image: url('../img/33.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+        /* margin: 0 auto; */
+        margin-left: 9px;
+        margin-top: 10px;
+    }
+    .qijian{
+    	width: 100%;
+    	height: 0.56rem;
+    	position: relative;
+    	background: #f0f0f0;
+    }
+    .qijian .zuo{
+    	width: 0.68rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 2.05rem;
+    	background: #2f2f2f; 
+    }
+    .qijian div{
+    	width:0.3rem; 
+    	height: 0.3rem;
+    	/* margin-top: 2px; */
+    	background-image: url('../img/fangzi.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	position: absolute;
+    	top: 0.1rem;
+    	left: 2.9rem; 
+    }
+    .qijian1{
+    	font-size: 14px;
+        line-height: 0.56rem;
+        color:#2f2f2f; 
+        position: absolute;
+        left: 3.2rem;
+    }
+    .qijian .you{
+    	width: 0.68rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 4.45rem;
+    	background: #2f2f2f; 
+    }
+    .qijian2{
+    	width: 100%;
+    	overflow: hidden;
+    }
+    .qijian2 .qijian3{
+    	width: 50%;
+    	height: 3.14rem;
+    	float: left;
+    }
+    .jian1{
+    	width: 2.44rem;
+    	height: 2.44rem;
+    	background-image: url('../img/01.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	float: left;
+    }
+    .jian2{
+    	width: 1.2rem;
+    	height: 1.2rem;
+    	float: left;
+    	background-image: url('../img/02.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	margin-top: 1px;
+    }
+    .jian3{
+    	width: 1.2rem;
+    	height: 1.2rem;
+    	float: left;
+    	background-image: url('../img/03.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	margin-top: 1px;
+    }
+    .jian4{
+    	width: 0.48rem;
+    	height: 0.48rem;
+    	float: left;
+    	background-image: url('../img/013.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	margin-top: 5px;
+    }
+    .qijian3 span{
+    	font-size: 14px;
+    	float: left;
+    	display: block;
+    }
+    .qijian3 div{
+    	font-size: 14px;
+    	float: left;
+    	display: block;
+    }
+    .jian5{
+    	width: 2.44rem;
+    	height: 2.44rem;
+    	background-image: url('../img/04.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	float: left;
+    }
+    .jian6{
+    	width: 1.2rem;
+    	height: 1.2rem;
+    	float: left;
+    	background-image: url('../img/05.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	margin-top: 1px;
+    }
+    .jian7{
+    	width: 1.2rem;
+    	height: 1.2rem;
+    	float: left;
+    	background-image: url('../img/06.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	margin-top: 1px;
+    }
+    .jian8{
+    	width: 0.48rem;
+    	height: 0.48rem;
+    	float: left;
+    	background-image: url('../img/014.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	margin-top: 5px;
+    }.jian9{
+    	width: 2.44rem;
+    	height: 2.44rem;
+    	background-image: url('../img/07.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	float: left;
+    }
+    .jian10{
+    	width: 1.2rem;
+    	height: 1.2rem;
+    	float: left;
+    	background-image: url('../img/08.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	margin-top: 1px;
+    }
+    .jian11{
+    	width: 1.2rem;
+    	height: 1.2rem;
+    	float: left;
+    	background-image: url('../img/09.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	margin-top: 1px;
+    }
+    .jian12{
+    	width: 0.48rem;
+    	height: 0.48rem;
+    	float: left;
+    	background-image: url('../img/015.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	margin-top: 5px;
+    }
+    .jian13{
+    	width: 2.44rem;
+    	height: 2.44rem;
+    	background-image: url('../img/010.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	float: left;
+    }
+    .jian14{
+    	width: 1.2rem;
+    	height: 1.2rem;
+    	float: left;
+    	background-image: url('../img/011.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	margin-top: 1px;
+    }
+    .jian15{
+    	width: 1.2rem;
+    	height: 1.2rem;
+    	float: left;
+    	background-image: url('../img/012.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	margin-top: 1px;
+    }
+    .jian16{
+    	width: 0.48rem;
+    	height: 0.48rem;
+    	float: left;
+    	background-image: url('../img/016.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	margin-top: 5px;
+    }
+    .xihuan{
+    	width: 100%;
+    	height: 0.56rem;
+    	position: relative;
+    	background: #f0f0f0;
+    }
+    .xihuan .zuo{
+    	width: 0.34rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 2.5rem;
+    	background: #999; 
+    }
+    .xihuan1{
+    	font-size: 14px;
+        line-height: 0.56rem;
+        color:#999; 
+        position: absolute;
+        left: 3rem;
+    }
+    .xihuan .you{
+    	width: 0.34rem;
+    	height: 0.02rem;
+    	position: absolute;
+    	top: 0.27rem;
+    	left: 4.3rem;
+    	background: #999; 
+    }
+    .cai{
+    	width: 100%;
+    	overflow: hidden;
+    }
+    .cai div{
+    	width: 50%;
+    	height: 5.14rem;
+    	float: left;
+    }
+    .cai div .span1{
+    	font-size: 14px;
+    	color: #666;
+    	float: left;
+    	margin-top: 1px;
+    }
+    .cai div .span2{
+    	font-size: 18px;
+    	color: #dd2727;
+    	float: left;
+    	margin-top: 11px;
+    }
+    .cai div .tu{
+    	width: 100%;
+    	height: 3.72rem;
+    	background-image: url('../img/a1.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    }
+    .cai div .tu1{
+    	width: 100%;
+    	height: 3.72rem;
+    	background-image: url('../img/a2.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    }
+    .cai div .tu2{
+    	width: 100%;
+    	height: 3.72rem;
+    	background-image: url('../img/a3.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    }
+    .cai div .tu3{
+    	width: 100%;
+    	height: 3.72rem;
+    	background-image: url('../img/a4.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    }
+    .cai div .tu4{
+    	width: 100%;
+    	height: 3.72rem;
+    	background-image: url('../img/a5.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    }
+    .cai div .tu5{
+    	width: 100%;
+    	height: 3.72rem;
+    	background-image: url('../img/a6.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    }
+    .cai div .tu6{
+    	width: 100%;
+    	height: 3.72rem;
+    	background-image: url('../img/a7.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    }
+    .cai div .tu7{
+    	width: 100%;
+    	height: 3.72rem;
+    	background-image: url('../img/a8.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    }
+    .cai div .tu8{
+    	width: 100%;
+    	height: 3.72rem;
+    	background-image: url('../img/a9.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    }
+    .cai div .tu9{
+    	width: 100%;
+    	height: 3.72rem;
+    	background-image: url('../img/a10.webp');
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    }
+
+
+    
+
+
+
+    
+
+
+
+

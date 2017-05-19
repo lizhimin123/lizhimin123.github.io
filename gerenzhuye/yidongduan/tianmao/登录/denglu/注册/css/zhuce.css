@@ -1,0 +1,138 @@
+.box{
+	width: 100%;
+	height:15rem;
+	overflow: hidden;
+	background: #eeeeee;
+}
+.top{
+	width: 100%;
+	height: 0.94rem;
+	background: #E6E6E6;
+	background-image: linear-gradient(#f2f2f2,#e6e6e6);
+	position: relative;
+	padding: 3px 0;
+	border-bottom: 1px #c1c1c5 solid;
+}
+.anniu{
+	width: 15%;
+	height: 0.5rem;
+	position: absolute;
+	top: 0.25rem;
+	left: 0.1rem;
+}
+.zc{
+	width: 100%;
+	height: 0.94rem;
+	font-size: 0.5rem;
+	color: #333;
+	text-align: center;
+	line-height: 0.94rem;
+	
+}
+.main{
+	width: 100%;
+	height: 5rem;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.wl{
+	width: 100%;
+	height:0.4rem;
+	font-size: 14px;
+	color: black;
+	margin-bottom: 10px;
+}
+.zh{
+	width: 100%;
+	height: 0.76rem;
+    border-bottom: 1px solid #ddd;
+    padding: .373333rem .266667rem;
+    color: #6c6c6c;
+    background-color: #fff;
+    text-align: left;
+    font-size: 0.3rem;
+    overflow: hidden;
+    position: relative;
+}
+.zhang{
+	width:20%;
+	height: 1rem;
+	position: absolute;
+	top: 0.15rem;
+	left: 0.4rem;
+}
+.tex{
+	width: 75%;
+	height: 0.7rem;
+	position: absolute;
+	font-size: 0.4rem;
+	bottom: 0;
+	right: 0;
+	padding: 0;
+    border: 0;
+    background-color: transparent;
+	
+}
+.zhang1{
+	width: 25%;
+	height: 1rem;
+	position: absolute;
+	top: 0.15rem;
+	left: 0.4rem;
+}
+.tex1{
+	width: 74%%;
+	height: 0.7rem;
+	font-size: 0.5rem;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 0;
+    border: 0;
+    background-color: transparent;
+	
+}
+.xx{
+	width: 100%;
+	height: 1.29rem;
+	margin: 10px;
+	background: #dddddd;
+}
+.zuo{
+	width:19%;
+	height: 100%;
+	float: left;	
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.you{
+	width: 80%;
+	height: 100%;
+	line-height: 1.25rem;
+    text-align: center;
+    font-size: 0.45rem;
+    
+}
+.zuihou{
+	font-size: 0.25rem;
+	color: #6C6C6C;
+	float: left;
+	margin-left: 0.23rem;
+}
+.xieyi{
+	font-size: 0.25rem;
+	color: #ff6700;
+	float: left;
+}
+.zui{
+	width: 100%;
+	height: 1rem;
+}
+.xi{
+	width: 100%;
+    font-size: 0.25rem;
+    color: #FF6700;
+    text-align: center;
+}

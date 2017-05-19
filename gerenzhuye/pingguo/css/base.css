@@ -1,0 +1,18 @@
+/*
+* @Author: ASUS
+* @Date:   2017-03-14 09:26:33
+* @Last Modified by:   ASUS
+* @Last Modified time: 2017-03-14 11:46:03
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style:none;
+}
+ul,ol,li{
+	list-style: none;
+}
+a{
+	color: black;
+}

@@ -1,0 +1,365 @@
+.header{
+	width: 100%;
+	height: 0.89rem;
+    background-color: #007be3;
+    top: 0;
+    position: fixed;
+    z-index: 999;
+}
+.header-top{
+	width: 2.27rem;
+    height: 0.68rem;
+    margin: 0 auto;
+    padding-top: 0.16rem;
+    /*float: left;*/
+}
+.qie{
+	width: 0.7rem;
+	height: 0.7rem;
+	background-image: url(../img/logo.png);
+	background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: left;
+}
+.header-top div{
+	font-size: 0.36rem;
+    color: #fff;
+    line-height: 0.7rem;
+    float: left;
+    margin-left: 0.16rem;
+    /*float: left;*/
+}
+.banner{
+	width: 100%;
+	overflow: hidden;
+}
+.bannertu{
+	width: 100%;
+	height: 4.21rem;
+	margin: 0 auto;
+    /*position: relative;*/
+    /*overflow: hidden;*/
+    z-index: 1;
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.content{
+	overflow: hidden;
+	padding: 0.28rem 0.2rem 0;
+	background: #f5f6fa;
+}
+.content ul{
+	display: -webkit-flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.content ul li {
+    width: 1.55rem;
+    height: 1.96rem;
+    float: left;
+    /*margin-right: 0.3rem;*/
+    margin-bottom: 0.32rem;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #000;
+}
+.content ul li .a{
+	display: block;
+    width: 100%;
+    height: 1.56rem;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    margin-bottom: 0.16rem;
+    padding-top: 0.25rem;
+    padding-left: 0.25rem;
+    box-sizing: border-box;
+}
+.content ul li .a .a1{
+	width: 1.05rem;
+    height: 1.05rem;
+	background: #fff url(../img/shouye6.png);
+	/*background-size: cover;*/
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+}
+.content ul li .a .a2{
+	width: 1.05rem;
+    height: 1.05rem;
+	background: #fff url(../img/shouye6.png);
+	/*background-size: cover;*/
+    background-position: -0.98rem 0;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+}
+.content ul li .a .a3{
+	width: 1.05rem;
+    height: 1.05rem;
+	background: #fff url(../img/shouye6.png);
+	/*background-size: cover;*/
+    background-position: 0.15rem -1.1rem;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+}
+.content ul li .a .a4{
+	width: 1.05rem;
+    height: 1.05rem;
+	background: #fff url(../img/shouye6.png);
+	/*background-size: cover;*/
+    /*background-position: 0.15rem -1.1rem;*/
+    background-repeat: no-repeat;
+    background-size: 2rem;
+}
+.content ul li .a .a5{
+	width: 1.05rem;
+    height: 1.05rem;
+	background: #fff url(../img/shouye6.png);
+	/*background-size: cover;*/
+    background-position: -0.98rem -1.1rem;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+}
+.content ul li .a .a6{
+	width: 1.05rem;
+    height: 1.05rem;
+	background: #fff url(../img/shouye6.png);
+	/*background-size: cover;*/
+    background-position: 0rem -3.3rem;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+}
+.content ul li .a .a7{
+	width: 1.05rem;
+    height: 1.05rem;
+	background: #fff url(../img/shouye6.png);
+	/*background-size: cover;*/
+    background-position: 0.1rem -2.2rem;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+}
+.content ul li .a .a8{
+	width: 1.05rem;
+    height: 1.05rem;
+	background: #fff url(../img/shouye6.png);
+	/*background-size: cover;*/
+    background-position: -0.98rem -2.2rem;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+}
+.server{
+	width: 100%;
+	background-color: #fff;
+	overflow: hidden;
+}
+.title{
+	width: 100%;
+    height: 0.63rem;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: center;
+    line-height: 0.63rem;
+    font-size: 0.24rem;
+    color: #1378ba;
+}
+.server .zuo{
+	width: 100%;
+    height: 2.18rem;
+    border-bottom: 1px solid #e8e8e8;
+}
+.server .you{
+    width: 100%;
+    height: 1.38rem;
+    border-bottom: 1px solid #e8e8e8;	
+} 
+.server .zuo li{
+	float: left;
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid #e8e8e8;
+    padding: 0.38rem 0rem 0.48rem 0.16rem;
+    box-sizing: border-box;
+} 
+.server .zuo li .left{
+	width: 1.8rem;
+    float: left;
+    height: 100%;
+}
+.server .zuo li .left div{
+	font-size: 0.24rem;
+    font-weight: normal;
+    color: #000000;
+    float: left;
+}
+.server .zuo li .right{
+	width: 1.5rem;
+    height: 100%;
+    float: left;
+    background: #fff url(../img/shouye6.png);
+    background-position: 0 -4.4rem;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+}
+.server .zuo li .right1{
+	width: 1.5rem;
+    height: 100%;
+    float: right;
+    background: #fff url(../img/shouye6.png);
+    background-position: 0 -5.9rem;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    }
+.xia{
+	width: 100%;
+    height: 1.38rem;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 0.9rem;
+}
+.server .xia li{
+	float: left;
+    width: 33.33%;
+    height: 100%;
+    border-right: 1px solid #e8e8e8;
+    padding: 0.4rem 0 0.38rem 0.2rem;
+    box-sizing: border-box;
+}
+.server .xia li .left0{
+	width: 0.6rem;
+    height: 100%;
+    float: left;
+    background: url(../img/shouye_01.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+}
+.server .xia li .left1{
+	width: 0.6rem;
+    height: 100%;
+    float: left;
+    background: url(../img/shouye_02.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+}
+.server .xia li .left2{
+	width: 0.5rem;
+    height: 100%;
+    float: left;
+    background: url(../img/shouye_03.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+}
+.server .xia li .right0{
+	width: 1.5rem;
+    margin-left: 0.1rem;
+    float: left;
+    height: 100%;
+    font-size: 0.24rem;
+    color: #000000;
+}
+.dibu{
+	width: 100%;
+    height: 0.9rem;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin-top: 0.2rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+}
+.zuihou{
+	width: 100%;
+    height: 100%;
+    background: #e7e7e7;
+    float: left;
+    
+}
+.zuihou div{
+	line-height: 0.9rem;
+	
+}
+.shiting{
+	width: 30%;
+    height: 0.8rem;
+    float: left;
+    position: relative;
+}
+.mianfei{
+	width: 40%;
+    height: 0.8rem;
+    float: left;
+    background-color: #ff8d12;
+    border-radius: 0.08rem;
+    color: #fff;
+    /*margin: 0 auto;*/
+    text-align: center;
+    position: relative;
+}
+.zaixian{
+	width: 30%;
+    height: 0.8rem;
+    float: left;
+    position: relative;
+}
+.ziti{
+	float: left;
+    font-size: 0.26rem;
+    margin-left: 0.1rem;
+    position: absolute;
+    right: 0.2rem;
+}
+.ziti1{
+	float: left;
+    font-size: 0.26rem;
+    margin-left: 0.1rem;
+    position: absolute;
+    right: 0.65rem;
+}
+.dibutu{
+	width: 0.32rem;
+	height: 0.32rem;
+	background: url(../img/qq.png);
+	background-position: center center;
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+	position: absolute;
+	left:0.55rem ;
+	top: 0.3rem;
+	
+}
+.dibutu1{
+	width: 0.36rem;
+	height: 0.36rem;
+	/*background:u*/
+	background: url(../img/shouye6.png);
+	background-size: cover;
+	background-position:-1.6rem -4.78rem;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    /*display: inline-block;
+    line-height: 0.9rem;
+    margin-left: 0.7rem;*/
+	position: absolute;
+	left:0.75rem ;
+	top: 0.23rem;
+	
+}
+.dibutu2{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: url(../img/shouye6_03.gif);
+	background-position:center center;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    background-size: cover;
+	position: absolute;
+	left:0.38rem ;
+	top: 0.2rem;
+}

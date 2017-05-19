@@ -1,0 +1,118 @@
+.box{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #eeeeee;
+}
+.gds{
+	background: white;
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 0.9rem;
+	position: fixed;
+	top: 0;
+	font-size: 0.3rem;
+}
+.gds1{
+	width: 24.8%;
+	height: 100%;
+	float: left;
+	border-right: 1px solid #f4f4f4;
+	text-align: center;
+	line-height: 0.9rem;
+}
+.gds2{
+	width: 24.8%;
+	height: 100%;
+	color: red;
+	float: left;
+	border-right: 1px solid #f4f4f4;
+	border-top: 1px solid #FF0000;
+	text-align: center;
+	line-height: 0.9rem;
+}
+.xs{
+	width: 100%;
+	height: 1rem;
+	margin-top: 1.0rem;
+	font-size:0.3rem;
+	overflow: hidden;
+	text-align: center;
+	line-height: 1rem;
+	border-top: 1px solid rgba(0,0,0,.1);
+}
+.dphd{
+	width: 100%;
+	height: 4.6rem;
+}
+.dianpu{
+	width:100%;
+	background:#FFF;
+    height:0.8rem;
+    line-height:0.6rem;
+    padding: 6px 0 0 12px;
+    font-size:0.3rem;
+    color: #666;
+}
+.yue{
+	width: 100%;
+	height: 3.9rem;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.shangpin{
+	width: 100%;
+	height: 4rem;
+}
+.shangpin ul li{
+	float: left;
+	width: 33%;
+	border: 1px solid white;
+}
+.t1{
+	width: 100%;
+	height: 5.6rem;
+}
+.t2{
+	width: 100%;
+	height: 9.6rem;
+}
+.t3{
+	width: 100%;
+	height: 4.6rem;
+}
+.t4{
+	width: 100%;
+	height: 7rem;
+}
+.t5{
+	width: 100%;
+	height: 6rem;
+}
+.t6{
+	width: 100%;
+	height: 6.6rem;
+}
+.t7{
+	width: 100%;
+	height: 8rem;
+}
+.t8{
+	width: 100%;
+	height: 2.6rem;
+}
+.t9{
+	width: 100%;
+	height: 1.2rem;
+}
+.t10{
+	width: 100%;
+	height: 2.6rem;
+}
+.di{
+	width: 100%;
+	height: 1rem;
+}

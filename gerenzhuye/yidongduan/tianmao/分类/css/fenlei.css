@@ -1,0 +1,113 @@
+ .box{
+         	width: 100%;
+         	height: auto;
+         	overflow: hidden;
+         	display: block;
+         	position: relative;
+          }
+header{
+	width: 100%;
+	height: 0.85rem;
+	overflow: hidden;
+    background: #EEE;
+    border-bottom: 1px solid #E1E1E1;
+    font-size: 0.4rem;
+    line-height: 0.85rem;
+    padding-left:0.15rem;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 999;
+}
+.daohang{
+	/* position: fixed;
+	top: 0.85rem;
+	left: 0rem; */
+	width: 25%;
+	height: 14rem;
+	overflow-y: scroll;
+	background: #eee;
+	float: left;
+	padding-top: 0.85rem;
+	
+}
+.daohang ul{
+	width: 100%;
+    display: block;
+    float: left;
+}
+.daohang ul li{
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+	text-align:center;
+	color: #9b9b9b;    font-size: 0.35rem;
+
+}
+.daohang ul li:hover{
+	color: black;
+	background: white;
+}
+.nz{
+	width: 100%;
+	/*height: 17rem;*/
+	border: 1px solid white;
+	font-size: 0.30rem;
+	color: #9B9B9B;
+	float: left;
+	overflow: hidden;
+	/*  position: absolute;
+	top: 0.85rem;
+	right: 0; */ 
+	/* padding-top: 0.55rem; */
+}
+.nz h2{
+	width: 100%;
+	height: 0.7rem;
+	padding: 10px 10px ;
+    /*overflow: hidden;*/
+}
+.nz .yrf{
+	margin-top: 0.6rem;
+}
+.nz ul{
+	width: 100%;
+	height:1.9rem;
+	padding: 0;
+	/*overflow: hidden;*/
+}
+.nz ul li{
+	width: 33.33%;
+	height: 100%;
+	float: left;
+	border: 1px solid white;
+	/*overflow: hidden;*/
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.nz .zt1{
+	width: 100%;
+	height:0.4rem;
+	margin: 0;
+}
+.zt1 li{
+	width: 25%;
+	height: 0.4rem;
+	text-align:center;
+}
+ .box1{
+	width: 100%;
+	height: 12.5rem;
+	border: none;
+	/* overflow-y: auto; */
+}
+.you{
+	width: 75%;
+	height: 14rem;
+	float: right;
+	padding-top: 0.85rem;
+	overflow-y: auto;
+}
+ 

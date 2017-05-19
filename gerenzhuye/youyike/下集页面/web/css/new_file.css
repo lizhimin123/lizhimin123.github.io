@@ -1,0 +1,937 @@
+body{
+	font-size: 16px;
+    font-family: "苹方","微软雅黑", "Helvetica";
+    color: #999;
+    background-color: #f5f6fa;
+}
+                        /*底部*/
+.di{
+	width: 100%;
+	height: 1.2rem;
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+	overflow: 999;
+}
+.st{
+	width: 31.5%;
+	height: 0.7rem;
+	background: #E8E8E8;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.qq{
+	width: 33.5%;
+	height: 100%;
+    float: left;
+    margin-left:5%;
+    background-image: url(../img/qq.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.shi{
+	font-size: 0.3rem;
+	text-align: center;
+	line-height:0.8rem;
+}
+.boda{
+	width: 35%;
+	height: 1rem;
+	background: #ff6700;
+	border-radius: 0.2rem;
+	position: absolute;
+	bottom: 0;
+	left: 31%;
+}
+.qq1{
+	width: 30%;
+	height: 100%;
+    float: left;
+    margin-left:5%;
+    margin-top: 7%;
+    background-image: url(../img/dianhua_03.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.shi1{
+	font-size: 0.3rem;
+	color: white;
+	text-align: center;
+	line-height: 1.1rem;
+}
+.zaixian{
+	width: 34%;
+	height: 0.8rem;
+	background: #E8E8E8;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.qq2{
+	width: 30%;
+	height: 100%;
+    float: left;
+    margin-left:5%;
+    margin-top: 10%;
+    background-image: url(../img/shouye6_14.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.shi2{
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 1.1rem;
+}
+                                     /*底部结束*/
+                                   /*顶部*/
+.header{
+    width: 100%;
+    height: 0.89rem;
+    background: rgba(0, 123, 227, 0.4);
+    top: 0;
+    position: fixed;
+    z-index: 1000;;
+}
+.header ul li{
+    width: 20%;
+	font-size: 0.4rem;
+	color: white;
+	float: left;
+	text-align: center;
+	line-height: 0.9rem;
+}
+                              /*顶部结束*/
+                                /*banner*/
+.banner{
+	width: 100%;
+	height: 5rem;
+	position: relative;
+}
+.banner1{
+	width: 100%;
+	height: 5rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-image: url(../img/web.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+                              /*banner结束*/
+                                     /*什么是前端工程师*/
+.shen{
+	height: 7.3rem;
+    overflow: hidden;
+}
+.mei{
+	width: 100%;
+    height: 1.42rem;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    padding: 0.2rem 0;
+    margin: 0 auto;
+    margin-bottom: 0.3rem;
+}
+.mei h2{
+	width: 100%;
+    height: 0.4rem;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.36rem;
+    color: #333;
+    text-transform: uppercase;
+}
+.mei h3{
+	width: 100%;
+    height: 0.4rem;
+	font-size: 0.3rem;
+    line-height: 0.4rem;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+}
+.xian{
+	width: 2.7rem;
+    height: 0.3rem;
+    margin: 0 auto;
+    position: relative;
+    background: url(../img/ui1lines.png) center center no-repeat;
+    background-size: 100%;
+}
+.qiand{
+	width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+}
+.shang{
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: url(../img/web1back.png) center center no-repeat;
+    background-size: 100%;
+    padding: 0.4rem;
+}
+.shang h3{
+	width: 100%;
+    text-transform: uppercase;
+    color: #00c298;
+    font-size: 0.5rem;
+    line-height: 0.6rem;
+}
+.shang h3 span{
+	color: #00c298;
+    font-size: 0.34rem;
+}
+.shang h3 .s1{
+	color: #ff815c;
+}
+.shang p{
+	color: #333;
+    letter-spacing: 1px;
+    font-size: 0.24rem;
+    line-height: 0.32rem;
+}
+.xia {
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: url(../img/web1backs.png) center center no-repeat;
+    background-size: 100%;
+    padding: 0.4rem;
+}
+.xia h3{
+	width: 100%;
+    text-transform: uppercase;
+    color: #00c298;
+    font-size: 0.5rem;
+    line-height: 0.6rem;
+}
+.xia h3 span{
+	color: #00c298;
+    font-size: 0.34rem;
+}
+.xia h3 .s1{
+	color: #ff815c;
+}
+.xia p{
+	color: #333;
+    letter-spacing: 1px;
+    font-size: 0.24rem;
+    line-height: 0.32rem;
+}
+                                          /*什么是前端工程师？结束*/
+                                           /*六大服务*/
+.liuda{
+	width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+}
+.zi{
+	width: 100%;
+    height: 1.3rem;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    padding: 0.2rem 0;
+    margin: 0 auto;
+    margin-bottom: 0.3rem;
+}
+.zi h2{
+	width: 100%;
+    height: 0.4rem;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.36rem;
+    color: #333;
+    text-transform: uppercase;
+}
+.xian{
+	width: 2.7rem;
+    height: 0.1rem;
+    margin: 0 auto;
+    position: relative;
+    background: url(../img/ui1lines.png) center center no-repeat;
+    background-size: 100%;
+}
+.ling{
+	width: 6.8rem;
+    height: 5.4rem;
+    margin: 0.2rem auto;
+}
+.ling ul{
+	width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.ling ul li{
+	width: 2.1rem;
+    height: 2.5rem;
+    float: left;
+    overflow: hidden;
+    margin-top: 0.2rem;
+    margin-right: 0.15rem;
+}
+.ruxue{
+	width: 2.1rem;
+    height: 1.1rem;
+    background: url(../img/fwtx1.png) center center no-repeat;
+    background-size: 100%;
+    color: #fff;
+    font-size: 0.28rem;
+    line-height: 1.1rem;
+    font-weight: 600;
+    padding-left: 0.8rem;
+}
+.ling ul li p{
+	width: 2.1rem;
+    height: 1.4rem;
+    color: #333;
+    font-size: 0.26rem;
+    line-height: 0.32rem;
+    text-align: center;
+    padding-top: 0.2rem;
+    border: 1px dashed #f2a111;
+}
+.ruxue1{
+	width: 2.1rem;
+    height: 1.1rem;
+    background: url(../img/fwtx2.png) center center no-repeat;
+    background-size: 100%;
+    color: #fff;
+    font-size: 0.28rem;
+    line-height: 1.1rem;
+    font-weight: 600;
+    padding-left: 0.8rem;
+}
+.ruxue2{
+	width: 2.1rem;
+    height: 1.1rem;
+    background: url(../img/fwtx3.png) center center no-repeat;
+    background-size: 100%;
+    color: #fff;
+    font-size: 0.28rem;
+    line-height: 1.1rem;
+    font-weight: 600;
+    padding-left: 0.8rem;
+}
+.ruxue3{
+	width: 2.1rem;
+    height: 1.1rem;
+    background: url(../img/fwtx4.png) center center no-repeat;
+    background-size: 100%;
+    color: #fff;
+    font-size: 0.28rem;
+    line-height: 1.1rem;
+    font-weight: 600;
+    padding-left: 0.8rem;
+}
+.ruxue4{
+	width: 2.1rem;
+    height: 1.1rem;
+    background: url(../img/fwtx5.png) center center no-repeat;
+    background-size: 100%;
+    color: #fff;
+    font-size: 0.28rem;
+    line-height: 1.1rem;
+    font-weight: 600;
+    padding-left: 0.8rem;
+}
+.ruxue5{
+	width: 2.1rem;
+    height: 1.1rem;
+    background: url(../img/fwtx6.png) center center no-repeat;
+    background-size: 100%;
+    color: #fff;
+    font-size: 0.28rem;
+    line-height: 1.1rem;
+    font-weight: 600;
+    padding-left: 0.8rem;
+}
+                                    /*六大服务结束*/
+                                       /*表格开始*/
+.ljgd{
+	display: block;
+    width: 2.99rem;
+    height: 0.8rem;
+    margin: 0.1rem auto;
+    background: url(../img/btn.png) center center no-repeat;
+    background-size: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.28rem;
+    margin-left: 2.2rem;
+    
+}
+.youxiu{
+	width: 100%;
+	margin-top: -0.8rem;
+	position: relative;
+}
+.lie{
+	width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+}
+.biao{
+	width: 7.02rem;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+}
+.name{
+	width: 100%;
+	height: 0.6rem;
+}
+.name p{
+	color: #fff;
+    font-size: 0.26rem;
+    line-height: 0.6rem;
+    height: 0.6rem;
+    border-radius: 0.1rem 0.1rem 0 0;
+    background: #40abfd;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    width: 1.3rem;
+}
+.ss{
+	width: 100%;
+	height: 3.5rem;
+	overflow: hidden;
+	border: 1px solid #1875ff
+}
+.name p:nth-child(2) {
+    width: 1.8rem;
+    background: #219eff;
+    }
+.name p:nth-child(3) {
+    width: 3.92rem;
+    background: #118ded;
+}
+.ss ul li p{
+	height: 0.7rem;
+    overflow: hidden;
+    float: left;
+    font-size: 0.26rem;
+    color: #666;
+    line-height: 0.7rem;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+.name1{
+       width: 1.3rem;	
+}
+.ss ul li .name2{
+    color: orange;
+    width: 1.8rem;
+}
+.name3{
+	width: 3.87rem;
+}
+                                        /*列表结束*/
+                                     /*  就业前景开始*/
+.jiu{
+	margin-top: 0.2rem;
+    height: 11rem;
+    width: 100%;
+    position: relative;
+}
+.tong{
+	width: 100%;
+    height: 9rem;
+    background: #1b1d32;
+    margin-top: -0.4rem;
+    padding-top: 0.4rem;
+}
+.tong1{
+	width: 3.7rem;
+    height: 0.8rem;
+    margin: 0 auto;
+    padding: 0.2rem;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.3rem;
+    border-bottom: 1px dashed #fff;
+    position: relative;
+    color: #00c298;
+}
+.xian1{
+	width: 100%;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0.1rem;
+}
+.biao1{
+	width: 7.02rem;
+    height: 4.3rem;
+    margin: 0 auto;
+    background: url(../img/webbfb.png) center center no-repeat;
+    background-size: 100%;
+    margin-top: 0.7rem;
+}
+.tong p{
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.26rem;
+    color: #fff;
+    margin-top: 0.2rem;
+}
+                                  /*  就业前景结束*/
+                                 /*课程规划开始*/
+.ke{
+	background: url(../img/webkcback.png) center center repeat;
+    padding-bottom: 0.5rem;
+    height: 14.4rem;
+    width: 100%;
+    position: relative;
+}
+.shu{
+    width: 2px;
+    color: dodgerblue;
+    overflow: hidden;
+    height: 13rem;
+    position: absolute;
+    width: 2px;
+    background: #00a8ff;
+    left: 3.7rem;
+    top: 1.42rem;
+}
+.nn{
+	position: relative;
+    margin-top: 0.6rem;
+    width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.ke1{
+	width: 3.06rem;
+    height: 0.6rem;
+    background: #00a8ff;
+    overflow: hidden;
+    position: absolute;
+    left: 2rem;
+    top: 0.5rem;
+}
+.ke1 p{
+	width: 2.96rem;
+    height: 0.5rem;
+    border: 1px dashed #fff;
+    margin: 0.05rem;
+    color: #fff;
+    margin-top: 0.05rem;
+    line-height: 0.5rem;
+    text-align: center;
+    font-size: 0.3rem;
+}
+.yuan{
+	width: 0.24rem;
+    height: 0.24rem;
+    border-radius: 50%;
+    border: 2px solid #00a8ff;
+    background: #fff;
+    position: absolute;
+    left: 3.36rem;
+    top: 1.46rem;
+}
+.yuan1{
+	width: 0.24rem;
+    height: 0.24rem;
+    border-radius: 50%;
+    border: 2px solid #00a8ff;
+    background: #fff;
+    position: absolute;
+    left: 3.36rem;
+    top: 1.8rem;
+}
+.yuan2{
+	width: 0.24rem;
+    height: 0.24rem;
+    border-radius: 50%;
+    border: 2px solid #00a8ff;
+    background: #fff;
+    position: absolute;
+    left: 3.36rem;
+    top: 4.3rem;
+}
+.yuan3{
+	width: 0.24rem;
+    height: 0.24rem;
+    border-radius: 50%;
+    border: 2px solid #00a8ff;
+    background: #fff;
+    position: absolute;
+    left: 3.36rem;
+    top: 6.8rem;
+}
+.yuan4{
+	width: 0.24rem;
+    height: 0.24rem;
+    border-radius: 50%;
+    border: 2px solid #00a8ff;
+    background: #fff;
+    position: absolute;
+    left: 3.36rem;
+    top: 7.4rem;
+}
+.yuan5{
+	width: 0.24rem;
+    height: 0.24rem;
+    border-radius: 50%;
+    border: 2px solid #00a8ff;
+    background: #fff;
+    position: absolute;
+    left: 3.36rem;
+    top: 11rem;
+}
+.nn ul{
+	width: 3.35rem;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-top: 1.1rem;
+}
+.nn ul li{
+	width: 3.35rem;
+    height: auto;
+    overflow: hidden;
+    margin-top: 0.1rem;
+    padding: 0.1rem;
+}
+.nn ul li div{
+	width: 100%;
+    height: 0.58rem;
+    overflow: hidden;
+    background: url(../img/web4back.png) center center no-repeat;
+    background-size: 100%;
+    text-align: right;
+    font-size: 0.3rem;
+    line-height: 0.58rem;
+    color: #fff;
+    font-weight: 600;
+    padding-right: 0.2rem;
+    float: left;
+}
+.nn ul li p{
+	width: 3.05rem;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #00a8ff;
+    font-size: 0.24rem;
+    color: #333;
+    line-height: 0.34rem;
+    padding: 0.16rem;
+    text-align: justify;
+    margin-top: -0.02rem;
+    float: left;
+    word-break: break-all;
+}
+.nn .ul1{
+	float: right;
+    margin-top: 1.4rem;
+}
+.nn .ul1 li div{
+	width: 100%;
+    height: 0.58rem;
+    overflow: hidden;
+    background: url(../img/web4back2.png) center center no-repeat;
+    background-size: 100%;
+    text-align: right;
+    font-size: 0.3rem;
+    line-height: 0.58rem;
+    color: #fff;
+    font-weight: 600;
+    padding-right: 0.2rem;
+    float: left;
+}
+.nn .ul1 li p{
+	width: 3.05rem;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #00a8ff;
+    font-size: 0.24rem;
+    color: #333;
+    line-height: 0.34rem;
+    padding: 0.16rem;
+    text-align: justify;
+    margin-top: -0.02rem;
+    float: right;
+    word-break: break-all;
+}
+.ke2{
+	width: 3.06rem;
+    height: 0.6rem;
+    background: #00a8ff;
+    overflow: hidden;
+    position: absolute;
+    left: 2rem;
+    top: 11.6rem;
+}
+.ke2 p{
+	width: 2.96rem;
+    height: 0.5rem;
+    border: 1px dashed #fff;
+    margin: 0.05rem;
+    color: #fff;
+    margin-top: 0.05rem;
+    line-height: 0.5rem;
+    text-align: center;
+    font-size: 0.3rem;
+}
+                                          /*课程规划结束*/
+                                         /*就业方向开始*/
+.jiuy{
+	background: #1b1d32;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.nei{
+	width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+}
+.shang1{
+	width: 100%;
+    height: 4.32rem;
+    overflow: hidden;
+    position: relative;
+}
+.zhong1{
+	width: 100%;
+    height: 4.5rem;
+    border: 1px solid #00c298;
+}
+.xia1{
+	width: 100%;
+    height: 2.4rem;
+    overflow: hidden;
+}
+.zhi{
+	width: 2.7rem;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.26rem;
+    color: #fff;
+    border-radius: 0.4rem;
+    position: absolute;
+}
+.zhi1{
+	background: #f2a111;
+    left: 0rem;
+    bottom: 2.4rem;
+}
+.zhi2{
+	width: 1.7rem;
+    background: #00c298;
+    left: 1.2rem;
+    top: 0.4rem;
+}
+.zhi3{
+	background: #f87844;
+    right: 0.4rem;
+    top: 0.5rem;
+}
+.zhi4{
+	background: #00baff;
+    right: 0rem;
+    bottom: 2.4rem;
+}
+.zhuan{
+	width: 1.74rem;
+    height: 1.74rem;
+    border-radius: 50%;
+    border: 2px solid #00c298;
+    position: absolute;
+    left: 2.54rem;
+    bottom: 0.6rem;
+    overflow: hidden;
+    box-sizing: content-box!important;
+}
+.zhuan1{
+	width: 1.54rem;
+    height: 1.54rem;
+    border-radius: 50%;
+    border: 2px dashed #00c298;
+    margin: 0.1rem;
+}
+.ren{
+	width: 1.24rem;
+    height: 1.94rem;
+    position: absolute;
+    left: 2.78rem;
+    bottom: 1.2rem;
+}
+.ren img{
+	width: 100%;
+	height: 100%;
+}
+.shu1{
+	width: 2px;
+    height: 0.7rem;
+    position: absolute;
+    left: 3.44rem;
+    top: 3.7rem;
+    background: #00c298;
+}
+.nin{
+	width: 2.96rem;
+    height: 0.64rem;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: -0.32rem;
+    background: #00c298;
+    overflow: hidden;
+}
+.gu{
+	width: 2.86rem;
+    height: 0.5rem;
+    margin: 0.05rem;
+    color: #1b1d32;
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.5rem;
+    border: 1px dashed #fff;
+}
+.zhong1 ul{
+	width: 6.4rem;
+    height: 3.5rem;
+    overflow: hidden;
+    margin: 0.3rem auto;
+}
+.zhong1 ul li{
+	width: 100%;
+    height: 0.7rem;
+    border-bottom: 1px dashed #00c298;
+    overflow: hidden;
+}
+.zhong1 ul li a{
+	display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 0.3rem;
+    line-height: 0.7rem;
+}
+.xia2{
+	width: 1.73rem;
+    height: 1.73rem;
+    margin: 0.3rem auto;
+    margin-bottom: -0.3rem;
+}
+.xia2 img{
+	width: 100%;
+	height: 100%;
+}
+                                     /*就业方向结束*/
+                                         /*登录开始*/
+.denglu{
+	width: 100%;
+    position: relative;
+    margin-top: 0.5rem;
+}
+.yu{
+	width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+}
+.yu p{
+	width: 100%;
+    height: 0.85rem;
+    font-size: 0.28rem;
+    color: #333;
+    text-align: center;
+    line-height: 0.85rem;
+    font-weight: 600;
+}
+.box{
+	padding: 0 0.7rem 0;
+	overflow: hidden;
+	width: 100%;
+    height: auto;
+}
+.box1{
+	font-size: 12px;
+	height: auto;
+}
+.box1 ul li{
+	width: 100%;
+    height: 1rem;
+    overflow: hidden;
+}
+.box1 ul li div{
+	width: 1.2rem;
+    height: 0.6rem;
+    display: block;
+    color: #333;
+    font-size: 0.3rem;
+    line-height: 0.6rem;
+    float: left;
+    margin-top: 0.4rem;
+    border: none;
+}
+.tt{
+	float: right;
+    color: #333;
+    font-size: 0.3rem;
+    outline: none;
+    width: 4.2rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-indent: 1em;
+    overflow: hidden;
+    padding-right: 0.2rem;
+}
+.box1 ul li  input{
+	float: left;
+    color: #333;
+    font-size: 0.3rem;
+    background: url(../img/input.png) center center no-repeat;
+    background-size: 100%;
+    border: none;
+    outline: none;
+    width: 4.0rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    text-indent: 1em;
+    margin-top: 0.4rem;
+}
+.tijiao{
+	width: 40%;
+	height: 2rem;
+	background: url(../img/btn.png) center center no-repeat;
+	background-size: 100%;
+	margin: 0 auto;
+	font-size: 0.4rem;
+	color: white;
+	text-align: center;
+	line-height: 2rem;
+}
+.ban{
+	width: 100%;
+    height: 1.2rem;
+    font-size: 0.3rem;
+    overflow: hidden;
+}
+.ban p{
+	color: #666;
+    font-size: 0.2rem;
+    text-align: center;
+    padding-top: 0.18rem;
+}
+.kongbai{
+	width: 100%;
+	height: 1.2rem;
+	overflow: hidden;
+}
+/*结束*/

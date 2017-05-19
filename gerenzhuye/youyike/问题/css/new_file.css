@@ -1,0 +1,351 @@
+.dibu{
+	width: 100%;
+    height: 0.9rem;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin-top: 0.2rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+}
+.zuihou{
+	width: 100%;
+    height: 100%;
+    background: #e7e7e7;
+    float: left;
+    
+}
+.zuihou div{
+	line-height: 0.9rem;
+	
+}
+.shiting{
+	width: 30%;
+    height: 0.8rem;
+    float: left;
+    position: relative;
+}
+.mianfei{
+	width: 40%;
+    height: 0.8rem;
+    float: left;
+    background-color: #ff8d12;
+    border-radius: 0.08rem;
+    color: #fff;
+    /*margin: 0 auto;*/
+    text-align: center;
+    position: relative;
+}
+.zaixian{
+	width: 30%;
+    height: 0.8rem;
+    float: left;
+    position: relative;
+}
+.ziti{
+	float: left;
+    font-size: 0.26rem;
+    margin-left: 0.1rem;
+    position: absolute;
+    right: 0.2rem;
+}
+.ziti1{
+	float: left;
+    font-size: 0.26rem;
+    margin-left: 0.1rem;
+    position: absolute;
+    right: 0.65rem;
+}
+.dibutu{
+	width: 0.32rem;
+	height: 0.32rem;
+	background: url(../img/qq.png);
+	background-position: center center;
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+	position: absolute;
+	left:0.55rem ;
+	top: 0.3rem;
+	
+}
+.dibutu1{
+	width: 0.36rem;
+	height: 0.36rem;
+	/*background:u*/
+	background: url(../img/shouye6.png);
+	background-size: cover;
+	background-position:-1.6rem -4.78rem;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    /*display: inline-block;
+    line-height: 0.9rem;
+    margin-left: 0.7rem;*/
+	position: absolute;
+	left:0.75rem ;
+	top: 0.23rem;
+	
+}
+.dibutu2{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: url(../img/shouye6_03.gif);
+	background-position:center center;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    background-size: cover;
+	position: absolute;
+	left:0.38rem ;
+	top: 0.2rem;
+}
+                                     /*底部结束*/
+                                   /*顶部*/
+.header{
+	width: 100%;
+    height: 0.89rem;
+    background-color: #007be3;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 999;
+}
+.biaoti{
+	width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.biaoti li{
+	width: 20%;
+    height: 100%;
+    float: left;
+    font-size: 0.32rem;  
+    color: #fff;
+    line-height: 0.89rem;
+    border: none;
+    text-align: center;
+}
+                              /*顶部结束*/
+                                /*banner*/
+.banner{
+	display: block;
+	width: 100%;
+	height:5rem;
+	position: relative;
+	overflow: hidden;
+}
+.banner1{
+	width: 100%;
+	height: 5rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: url(../img/banner1.jpg) center center no-repeat;
+	background-size:cover;
+}
+                              /*banner结束*/
+                                 /*正文开始*/
+.zheng{
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+    padding: 0.1rem 0.24rem 0;
+}
+.sho{
+	height: 0.62rem;
+    line-height: 0.62rem;
+    width: 100%;
+}
+.sho h5{
+	color: #494747;
+    font-size: 0.22rem;
+    line-height: 0.7rem;
+    float: left;
+    margin: 0 0.14rem;
+    font-weight: bold;
+}
+.nei{
+	width: 100%;
+    background-color: #ffffff;
+    margin-top: 0.2rem;
+    padding: 0.1rem 0.24rem 0;
+}
+.jiang{
+	width: 100%;
+    height: 0.8rem;
+    border: 1px solid #01b5ff;
+    border-radius: 0.07rem;
+    margin-bottom: 0.2rem;
+}
+.jin{
+	background-color: #01b5ff;
+    border-radius: 0.07rem;
+    color: #ffffff;
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.28rem;
+    position: relative;
+}
+.sanjiao{
+	position: absolute;
+    width: 0rem;
+    height: 0rem;
+    border: 0.2rem solid;
+    border-top-color: #01b5ff;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    top: 0.74rem;
+    left: 50%;
+    margin-left: -0.1rem;
+}
+.sj{
+	width: 33.33%;
+    float: left;
+    height: 100%;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.28rem;
+    color: #111111;
+    position: relative;
+}
+.nn{
+	width: 100%;
+	display: block;
+}
+.nn1{
+	background: #ffffff;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-left: 0.2rem;
+    padding-top: 0.3rem;
+    font-size: 0.24rem;
+}
+.nn1 .shu{
+	width: 0.04rem;
+    height: 0.2rem;
+    background: #01b5ff;
+    display: inline-block;
+    float: left;
+    margin-left: -0.15rem;
+    margin-top: 0.07rem;
+    overflow: hidden;
+}
+.nn1 h2{
+	font-size: 0.26rem;
+    color: #333;
+    margin-bottom: 0.14rem;
+    font-weight: normal;
+}
+.yuan{
+	width: 0.25rem;
+    height: 0.25rem;
+    background: url(../img/123.png) no-repeat;
+    float: left;
+    margin-left: -0.25rem;
+    margin-top: 0.06rem;
+    overflow: hidden;
+}
+.nn1 p{
+	color: #666;
+    width: 100%;
+    background: transparent;
+    margin-top: -0.02rem;
+    line-height: 0.36rem;
+    margin-left: 0;
+    text-align: left;
+}
+.nn1 .sz{
+	color: #ff9300;
+    display: block;
+    text-align: center;
+    margin-bottom: 0.2rem;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    background: #fff;
+    line-height: 0;
+    font-size: 0.27rem;
+    margin: 0.3rem auto;
+    margin-left: 0;
+}
+.xiax{
+	width: 100%;
+    height: 0;
+    float: left;
+    border-bottom: 1px solid #b8b8b8;
+}
+
+                                /*正文结束*/
+                               /*下一页开始*/
+.xiay{
+	width: 100%;
+    height: auto;
+}
+.yi{
+	height: 0.8rem;
+    padding-top: 0.15rem;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 0.2rem;
+}
+.xiay .yi a{
+	float: left;
+    padding: 0.1rem;
+    height: 0.5rem;
+    border-radius: 0.4rem;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.3rem;
+    margin-right: 0.15rem;
+}
+.xiay .yi .yi1{
+    width: 0.5rem;
+    margin-left: 0.6rem;
+    background: url(../img/s1.png) 0 0 no-repeat;
+    background-size: 100%;
+    }
+.xiay .yi .yi2{
+	width: 1.4rem;
+    background: url(../img/s2.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+.xiay .yi .yi3{
+	width: 1.4rem;
+    background: url(../img/s3.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+.xiay .yi .yi4{
+    width: 0.5rem;
+    background: url(../img/s4.png) 0 0 no-repeat;
+    background-size: 100%;
+    }
+.xiay .yi .diy{
+	border: 1px solid #666;
+    letter-spacing: 1px;
+    color: #666;
+    width: 1.4rem;
+}
+                              /*下一页结束*/
+.ban{
+	width: 100%;
+    height: 1.2rem;
+    font-size: 0.3rem;
+    overflow: hidden;
+}
+.ban p{
+	color: #666;
+    font-size: 0.2rem;
+    text-align: center;
+    padding-top: 0.18rem;
+}
+.kongbai{
+	width: 100%;
+	height: 1.2rem;
+	overflow: hidden;
+}
+/*结束*/
